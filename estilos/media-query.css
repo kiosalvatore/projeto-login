@@ -16,13 +16,14 @@
  Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {...} */
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) /* CONFIG PARA TABLETS */ {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 80vw;
+        height: 320px;
 
     }
 
@@ -38,13 +39,14 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) /*CONFIG PARA DESKTOP */ {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 990px;
+        height: 380px;
     }
 
     section#login > div#imagem {
